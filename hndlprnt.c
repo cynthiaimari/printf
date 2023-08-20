@@ -25,7 +25,7 @@ int hndlprnt(const char *fmt, int *ind, va_list list, char buffer[],
 	};
 	for (i = 0; fmt_types[i].fmt != '\0'; i++)
 		if (fmt[*ind] == fmt_types[i].fmt)
-			return (fmt_types[i].fn(list, buffer, flgs, wdth, prcn, sz));
+			return (fmt_types[i].fn(list, buffer, flgs, wdth, prcsn, sz));
 
 	if (fmt_types[i].fmt == '\0')
 	{

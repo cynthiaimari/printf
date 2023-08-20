@@ -3,7 +3,7 @@
 /************************* WRITE HANDLE *************************/
 /**
  * handle_write_char - Prints a string
- * by Joseph and Ciny
+ * by Mukiux featuring Cynthiaimari
  * @c: char types.
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags.
@@ -206,7 +206,7 @@ int write_unsgnd(int is_negative, int ind,
  * @padd: Char representing the padding
  * @extra_c: Char representing extra char
  * @padd_start: Index at which padding should start
- *
+ * By Mukiux featuring Cynthiaimari
  * Return: Number of written chars.
  */
 int write_pointer(char buffer[], int ind, int length,

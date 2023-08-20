@@ -2,22 +2,21 @@
 2. Create personal access token -mukiux and cynthiaimari
 3. Create a README.md file -cynthiaimari
 4. Create main.h header file -mukiux
-5. create vi _printf.c as prntf.c -mukiux 
-6. create vi flags.c  as flgs.c -mukiux
-7. create vi get_width.c  as wdth.c -mukiux
-8. create vi handle_print.c  as hndleprnt.c -mukiux
-9. create vi handlers.c as hndlrs.c -mukiux
-10. create vi precision.c as prcn.c -mukiux
-11. create vi print_functions.c  as prntfnc1.c -cynthiaimari
-12. create vi print_functions1.c as prntfnc2.c -cynthiaimari
-13. create vi print_functions2.c  as prntfnc3.c -cynthiaimari
-14. create vi size.c as sz.c -cynthiaimari
-15. create vi utils.c as utls.c -cynthiaimari
-16. create vi main.c copy from alx intranet -cynthiaimari
+5. create prntf.c -mukiux 
+6. create flgs.c -mukiux
+7. create wdth.c -mukiux
+8. create hndleprnt.c -mukiux
+9. create hndlrs.c -mukiux
+10. create prcsn.c -mukiux
+11. create prntfnc1.c -cynthiaimari
+12. create prntfnc2.c -cynthiaimari
+13. create prntfnc3.c -cynthiaimari
+14. create sz.c -cynthiaimari
+15. create utls.c -cynthiaimari
+16. create main.c copy from alx intranet -cynthiaimari
 17. generate a compiled file using gcc -Wall -Wextra -Werror -pedantic -std=gnu89 -Who-format *.c -c printf -cynthiaimari
 18. push all the files to github if necessary - mukiux and cynthiaimari
-19. invite partner on collaborators section -cynthiaimari
-20. Edit the files on github and not on terminal. Edit, comit and save
+
 
 THis is for the mandatory section. 
 

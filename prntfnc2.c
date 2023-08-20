@@ -3,7 +3,7 @@
 /************************* PRINT UNSIGNED NUMBER *************************/
 /**
  * print_unsigned - Prints an unsigned number
- * by cynthiaimari featuring mukiux
+ * By Cynthiaimari featuring Mukiux
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -85,6 +85,7 @@ int print_octal(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
+ * By Cynthiaimari featuring Mukiux
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -103,7 +104,6 @@ int print_hexadecimal(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width
- * by cynthiaimari featuring mukiux
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed

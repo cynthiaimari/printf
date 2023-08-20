@@ -4,7 +4,7 @@
 
 /**
  * print_char - Prints a char
- * by cynthiaimari featuring mukiux
+ * By Cynthiaimari featuring Mukiux
  * @types: List a of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
@@ -27,6 +27,7 @@ int print_char(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
+ * By Cynthiaimari featuring Mukiux
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Number of chars printed
@@ -78,8 +79,7 @@ int print_string(va_list types, char buffer[],
 /************************* PRINT PERCENT SIGN *************************/
 /**
  * print_percent - Prints a percent sign
- * @types: List of arguments
- * by cynthiaimari featuring mukiux
+ * @types: Lista of arguments
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
@@ -150,7 +150,8 @@ int print_int(va_list types, char buffer[],
  * @buffer: Buffer array to handle print
  * @flags:  Calculates active flags
  * @width: get width.
- * by cynthiaimari featuring mukiux
+ *
+ * By Cynthiaimari featuring Mukiux
  * @precision: Precision specification
  * @size: Size specifier
  * Return: Numbers of char printed.

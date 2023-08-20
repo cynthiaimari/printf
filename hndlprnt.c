@@ -9,7 +9,7 @@
  * @flgs: Calculates active flags
  * @wdth: get width.
  * @prcsn: Precision specification
- * @size: Size specifier
+ * @sz: Size specifier
  * Return: 1 or 2;
  */
 int hndlprnt(const char *fmt, int *ind, va_list list, char buffer[],
@@ -25,7 +25,7 @@ int hndlprnt(const char *fmt, int *ind, va_list list, char buffer[],
 	};
 	for (i = 0; fmt_types[i].fmt != '\0'; i++)
 		if (fmt[*ind] == fmt_types[i].fmt)
-			return (fmt_types[i].fn(list, buffer, flags, width, precision, size));
+			return (fmt_types[i].fn(list, buffer, flgs, wdth, prcn, sz));
 
 	if (fmt_types[i].fmt == '\0')
 	{
@@ -34,7 +34,7 @@ int hndlprnt(const char *fmt, int *ind, va_list list, char buffer[],
 		unknow_len += write(1, "%%", 1);
 		if (fmt[*ind - 1] == ' ')
 			unknow_len += write(1, " ", 1);
-		else if (width)
+		else if (wdth)
 		{
 			--(*ind);
 			while (fmt[*ind] != ' ' && fmt[*ind] != '%')

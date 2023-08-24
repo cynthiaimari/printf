@@ -1,2 +1,0 @@
-#!/bin/bash
-ls . | git add . | git commit -m 'Minor updatesv1, printf' | git push
